@@ -1,0 +1,833 @@
+/* Reset browser default styles */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial", sans-serif;
+    /*font-family: "lato",sans-serif;*/
+    font-weight:lighter;
+    font-size:16px;
+    line-height:1.7;
+    padding:30px;
+}
+
+
+
+/*.header{*/
+/*    position: relative;*/
+/*    height:95vh;*/
+/*    background-image: linear-gradient(to right bottom, #f3f17760,#ffbf0038 ) , url(../img/header.jpg);*/
+/*    background-size: cover;*/
+/*    background-position: center top;*/
+/*    !*clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);*!*/
+/*}*/
+
+
+/* for my website*/
+.header{
+    position: relative;
+    height: 110vh;
+    background-image:url(../img/homepic.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    clip-path: inset(0% 0% 0% 0% round 30px)
+}
+
+
+.logo-box{
+    position: absolute;
+    top:40px;
+    left:40px;
+}
+
+.header__logo{
+    height:100px;
+}
+
+
+/*.header__text-box{*/
+/*    position: absolute;*/
+/*    top:40%;*/
+/*    left:40%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    text-align: center;*/
+/*}*/
+
+
+
+
+/* for my code */
+.header__text-box{
+    /*position: absolute;*/
+    /*top:60%;*/
+    /*left:30%;*/
+    /*transform: translate(-75%, -75%);*/
+    /*text-align: right;*/
+
+    /*position: relative;*/
+
+}
+
+
+
+/* this the text at the header */
+/*.heading-primary{*/
+/*    color: rgb(94, 39, 3);*/
+/*    background: rgba(255, 255, 255, 0.35);*/
+/*    padding: 5px 15px;*/
+/*    border-radius: 5px;*/
+/*    animation-name: fadeIn;*/
+/*    animation-duration: 2s;*/
+/*    margin-bottom: 60px;*/
+
+/*}*/
+
+
+/* for my code */
+.heading-primary{
+    color: rgb(255, 255, 255);
+    /*background: rgba(255, 255, 255, 0.3);*/
+    border-radius: 5px;
+    animation-name: fadeIn;
+    animation-duration: 1.35s;
+    text-align: left;
+    /*margin-top: 750px;*/
+    /*margin-right: 200px;*/
+    margin-left: 50px;
+    margin-bottom: 390px;
+
+}
+
+
+/*.heading-primary-main{*/
+/*    font-family: 'MedievalSharp', cursive;*/
+/*    display: block;*/
+/*    font-size: 50px;*/
+/*    letter-spacing: 5px;*/
+
+/*}*/
+
+
+
+/* my code*/
+
+.heading-primary-main{
+    font-family: "Segoe UI", sans-serif;
+    color: #ffffff;
+    /*display: inline-block;*/
+    /*text-align: left;*/
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+/*.content-buttons{*/
+/*    margin-top: 30px;*/
+/*    !*margin-bottom: 50px;*!*/
+/*    background-color: #7c7a7a;*/
+/*    color: #54ec14;*/
+
+
+/*}*/
+
+.heading-primary-sub{
+    display: block;
+    text-align: left;
+    font-size: 26px;
+    word-spacing: 8px;
+    letter-spacing: 8px;
+}
+
+
+/* discover our park button */
+.btn:link,
+.btn:visited{
+    text-decoration: none;
+    padding: 15px 40px;
+    /*margin-top: 60px;*/
+    /*margin-top: 120px;*/
+
+    /*margin-bottom: 50px;*/
+    display: inline-block;
+    border-radius: 10px;
+    transition-duration: .22s;
+    transition-timing-function: ease-in-out;
+    /*transition:all .2s;*/
+    font-weight: bold;
+    background-color: #fdfcfc;
+    color: #FF5F1F;
+}
+
+
+
+/*.btn:hover{*/
+/*    transform:translateY(-3px);*/
+/*    background-color: #FF5F1F;*/
+/*    color: #ffffff;*/
+/*    font-weight: bold;*/
+/*    box-shadow: 0 10px 20px rgba(255,255,255,.6);*/
+/*}*/
+
+
+
+/*my code */
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #FF5F1F;
+    color: #ffffff;
+    /*font-weight: bolder;*/
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+
+/*.btn:active{*/
+/*    transform:translateY(-1px);*/
+/*    box-shadow: 0 5px 10px rgba(255,255,255,.3);*/
+/*}*/
+
+.btn-white{
+    margin-top: 30px;
+}
+
+.btn-readMore{
+    margin-top: 70px;
+
+}
+
+
+.btn-animated{
+    /*animation: moveInBtn .5s ease-out .75s;*/
+    animation-name: moveInBtn;
+    animation-duration: 1.9s;
+    /*animation-fill-mode: backwards;*/
+
+}
+
+
+
+
+/* my code*/
+.btn-heading{
+    /*padding-left: 400px;*/
+    position: relative;
+    left: 1100px;
+    top: 50px;
+    margin-top: 70px;
+}
+
+
+
+/*my code */
+
+.nav{
+    display: inline-block;
+    position: absolute;
+    top:5px;
+    right:30px;
+    font-weight: bold;
+    color: #ffffff;
+
+
+}
+
+.nav li{
+    display: inline-block;
+}
+
+
+
+/*.nav-link {*/
+/*    font-size:25px;*/
+/*    text-transform: uppercase;*/
+/*    text-decoration: none;*/
+/*    padding: 20px 20px;*/
+/*    margin: 20px 20px;*/
+/*    position: relative;*/
+/*    opacity: 0.75;*/
+/*    !* color for the text in the nav link*!*/
+/*    color: #ffffff;*/
+/*    !* to see the text of nav links with a shape use following lines of code*/
+/*    !*background-color: #54ec14;*!*/
+/*    !*border-radius: 42px;*!*/
+/*  }*/
+
+
+/*my code for nav links */
+.nav_link {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px;
+    padding: 25px ;
+    color: #ffffff;
+    border-radius: 15px;
+    border: #FF5F1F 1px solid;
+    transition-duration: .22s;
+    transition-timing-function: ease-in-out;
+}
+
+  .selected_nav_link {
+      background-color:#FF5F1F;
+      color:#ffffff;
+
+  }
+
+.nav_link:hover {
+    color:#ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 25px 35px -20px #ffffff;
+
+}
+
+
+
+/* my code for making the heading move in from the right side */
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+        transform: translateX(-400px);
+    }
+
+    100%{
+        opacity:100%;
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+/* my code for making the button move in from the right side */
+
+@keyframes moveInBtn{
+    0%{
+        opacity:0;
+        transform: translateX(80px);
+    }
+
+    100%{
+        opacity:100%;
+        transform: translateX(0px);
+    }}
+
+
+
+
+/* header styles end */
+
+/* section-welcome styles start */
+/*.info-section{*/
+/*    !*background-color: #f7f7f7;*!*/
+/*    !*padding: 150px 0 150px;*!*/
+/*    !*margin-top: -20vh;*!*/
+/*}*/
+
+.heading-secondary{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right,#ffffff, #FF5F1F);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: all .2s;
+    /*margin: 50px;*/
+}
+
+.heading-secondary:hover{
+    transform: skewX(-10deg);
+    text-shadow: 5px 10px 20px rgba(0,0,0,.2);
+}
+
+.section-welcome-content-wrapper {
+    margin: 15px;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%; /* no fixed width */ 
+    min-height: 400px; /*add min-height for 1 column layout */
+
+  }
+
+.text-content{
+    padding: 0 30px 20px;
+}
+
+
+
+/* my code */
+.discount-section{
+    background-color: #282828;
+    /*background-color: #5d5a5a;*/
+    /*background-color: #014e77;*/
+
+    margin-top : 50px;
+    margin-bottom : 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    clip-path: inset(0% 0% 0% 0% round 30px);
+    /*padding: 150px 0 110px;*/
+    /*transform: skewY(-7deg);*/
+}
+
+/*after skew we need the direct children to skew back*/
+.discount-section > * {
+    /*transform: skewY(7deg);*/
+}
+
+.rides-container{
+    display: flex ;
+    /*justify-content: space-around;*/
+/*    width: 120vw;*/
+/*    !*flex-wrap: ;*!*/
+
+}
+
+.card{
+    /*perspective: 1500px;*/
+    /*to make perspective work in firefox*/
+    /*-moz-perspective: 1500px;*/
+    position: relative;
+    margin-left: 40px;
+    margin-right: 200px;
+    height:400px;
+    width: 400px;
+
+}
+
+.card:hover .card__side--front{
+    transform:rotateX(-180deg);
+
+    /*transform:rotatex(-90deg) rotateY(-180deg);*/
+
+
+}
+
+.card:hover .card__side--back{
+    transform:rotateX(0deg);
+}
+
+/*.card__side{*/
+/*    position: absolute;*/
+/*    height:400px;*/
+/*    width: 400px;*/
+/*    backface-visibility: hidden;*/
+/*    transition:all .8s;*/
+/*    border-radius: 100%;*/
+/*    overflow: hidden;*/
+/*    background-color: #000000;*/
+/*    font-weight: bold;*/
+/*}*/
+
+.card__side{
+    position: absolute;
+    height: 375px;
+    width: 375px;
+    backface-visibility: hidden;
+    transition: all .8s;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+
+
+
+.card__side--front{
+    background-color:#ffffff;
+}
+
+/* code for animating the rides boxex */
+.card__side--back{
+    background-color: #000000;
+    color: #FF5F1F;
+    transform:rotateX(180deg);
+    border : #FF5F1F 3px solid;
+
+    /*transform:rotatex(90deg) rotateY(180deg);*/
+}
+
+
+/*.card__picture--1{*/
+/*    width: 395px;*/
+/*    height: 395px;*/
+/*    background-image: url(../img/trial400.jpg);*/
+/*    background-position:left;*/
+/*    */
+/*}*/
+
+
+.card__picture--1{
+    width: 370px;
+    height: 370px;
+    background-image: url(../img/student_discount_375.jpg);
+    background-position:left;
+
+}
+
+
+/*.card__picture--2{*/
+/*    width: 395px;*/
+/*    height: 395px;*/
+/*    background-image: url(../img/trial400_2.jpg);*/
+/*    background-position:left;*/
+
+
+/*}*/
+
+.card__picture--2{
+    width: 370px;
+    height: 370px;
+    background-image: url(../img/weekend_375.jpg);
+    background-position:left;
+
+}
+
+
+
+/*.card__picture--3{*/
+/*    width: 395px;*/
+/*    height: 395px;*/
+/*    background-image: url(../img/trial400_3.jpg);*/
+/*    background-position:left;*/
+
+/*}*/
+
+
+.card__picture--3{
+    width: 370px;
+    height: 370px;
+    background-image: url(../img/senior_discount.375.jpg);
+    background-position:left;
+
+}
+
+
+
+.card__heading{
+    /*font-size: 28px;*/
+    /*font-weight: 300;*/
+    /*text-transform: uppercase;*/
+    /*color: #d054ef;*/
+    /*width: 75%;*/
+    /*position: absolute;*/
+    /*top:185px;*/
+    /*right: 5px;*/
+}
+
+.card__heading-span{
+    /*padding: 10px 15px;*/
+    /*!*to work in chrome*!*/
+    /*-webkit-box-decoration-break: clone;*/
+    /*box-decoration-break: clone;*/
+    /*background-image: linear-gradient(to right bottom,#ff5f1f,#202121);*/
+}
+
+
+
+/*.card__details ul {*/
+/*    list-style: none;*/
+/*    margin-top: 80px;*/
+/*}*/
+
+/*.card__details ul li{*/
+/*    text-align: center;*/
+/*    font-size: 15px;*/
+/*    padding: 10px 10px;*/
+/*}*/
+
+/*.card__details ul li:not(:last-child){*/
+/*    border-bottom : #FF5F1F 1px solid;*/
+
+/*}*/
+
+/* card BACK side styling */
+.card__cta{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+
+}
+
+.card__price-box{
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+.card__price-only{
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+
+    /*text-transform: uppercase;*/
+    /*font-weight: bold;*/
+}
+
+.card__price-value{
+    position: center;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+
+
+
+
+/* my code for footer */
+footer{
+    clip-path: inset(0% 0% 0% 0% round 30px);
+    padding: 100px 100px 300px;
+    margin-top: 15px;
+    font-weight:400;
+    font-size:14px;
+    /*line-height: 1.2;*/
+    background-color: #282828;
+    /*background-color: #014e77;*/
+
+    /*background-color: #5d5a5a;*/
+    color: #FF5F1F;
+    position: relative;
+}
+
+footer h3{
+    margin-bottom: 10px;
+}
+
+.table a {
+    color: #282828;;
+}
+
+
+
+.icon-background {
+    color: #FF5F1F;
+}
+
+.footer-list{
+    list-style: lower-roman;
+}
+
+
+
+.footer-list li{
+    display: flex;
+}
+
+/*.footer-list li::after{*/
+/*    content: "|";*/
+/*}*/
+
+
+
+.footer-list a
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 8px;
+    text-decoration: none;
+    /*text-decoration: underline overline dotted lightskyblue;*/
+}
+.footer-list a:hover{
+    color: #FF5F1F;
+    /*box-shadow: #E0FFFF;*/
+}
+
+/*.footer-list span{ display: none;}*/
+
+#footer-columnleft
+{
+    color: #FF5F1F;
+    float: left;
+    /*width: 50%;*/
+    text-align: left;
+}
+
+footer address
+{
+    font-size: 15px;
+    padding: 20px;
+    position: absolute;
+    bottom:0px;
+    left:10px;
+    color:gray;
+}
+
+
+#footer-columnright
+{
+    color: white;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Utility classes */
+
+.u-center-text{
+    text-align: center;
+}
+
+.u-margin-bottom-small{
+    margin-bottom: 20px;
+}
+
+.u-margin-bottom-medium{
+    margin-bottom: 40px;
+}
+
+.u-margin-bottom-large{
+    margin-bottom: 60px;
+}
+
+.u-margin-top-large{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* Content/Cards Section ------------------- */
+
+.content-section{
+    background-color: #282828;
+    /*background-color: #5d5a5a;*/
+    /*background-color: #014e77;*/
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    clip-path: inset(0% 0% 0% 0% round 30px);
+
+}
+
+
+.content__container {
+    display        : flex;
+    /*flex-wrap      : wrap;*/
+    justify-content: space-evenly;
+    align-items    : stretch;
+    padding-bottom: 60px;
+    /*display  : flex;*/
+    /*transform: scale(0.95);*/
+}
+
+.content__card {
+    display       : flex;
+    background-color: #000000;
+    /*background-color: #014e77;*/
+    /*background-color: #539eff;*/
+
+    margin: 50px 10px 10px;
+    flex-basis    : 30%;
+    flex-direction: column;
+    align-items   : stretch;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    border: #FF5F1F 3px solid;
+    border-radius: 15px;
+}
+
+.content__img {
+
+    /*width        : 100%;*/
+    /*flex         : 1;*/
+    /*border-radius: 20px;*/
+    /*alignment: left;*/
+    /*transform    : scale(.85);*/
+
+    width: 365px;
+    height: 260px;
+    border-radius: 7px;
+    alignment: center;
+    margin-left: 12px;
+}
+
+
+.content__text {
+    padding    : 0.5rem;
+    padding-top: 1rem;
+    /*font-family: "Arial", sans-serif;*/
+    text-align : center;
+
+    /*border-top : #1e272e5b solid 1px;*/
+}
+
+.content__title {
+    color: #FF5F1F;
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+    /*font-weight: lighter;*/
+    /*font-family: "Arial", sans-serif;*/
+
+}
+
+.content__caption {
+    /*padding      : 4rem;*/
+    /*border-radius: 1rem;*/
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+
+    font-size    : 1.2rem;
+    /*margin-left: 20rem;*/
+    /*text-align: left;*/
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+/*.content__buttons{*/
+/*    text-decoration: none;*/
+/*    padding: 15px 40px;*/
+/*    margin-top: 100px;*/
+/*    !*margin-bottom: 50px;*!*/
+/*    display: inline-block;*/
+/*    border-radius: 10px;*/
+/*    transition-duration: .22s;*/
+/*    transition-timing-function: ease-in-out;*/
+/*    !*transition:all .2s;*!*/
+/*    font-weight: bold;*/
+/*    background-color: #fdfcfc;*/
+/*    color: #FF5F1F;*/
+
+/*}*/
+
+
+
+
